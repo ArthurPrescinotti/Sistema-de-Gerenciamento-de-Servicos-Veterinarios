@@ -16,12 +16,11 @@
 
 ## End-Points:
 Usuario:  
-°  
+°  http://localhost:8092/projeto/api/v1/cadastro  
 Pessoa:   
-°  
+°   http://localhost:8092/projeto/api/v1/pessoas  
 Animal:
-°  
-Servico:
-°  
+° http://localhost:8092/projeto/api/v1/animal  
+Servico:     °  http://localhost:8092/projeto/api/v1/servicos 
 
 
