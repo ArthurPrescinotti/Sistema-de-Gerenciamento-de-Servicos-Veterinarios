@@ -9,8 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document
-@Table(name = "servico")
+@Document(collation = "servico")
 @Getter @Setter
 public class Servico {
 

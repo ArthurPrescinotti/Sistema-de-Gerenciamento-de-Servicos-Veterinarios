@@ -7,8 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
-@Table(name = "animal")
+@Document(collection = "animal")
 @Getter @Setter
 public class Animal {
 

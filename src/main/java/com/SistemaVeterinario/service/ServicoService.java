@@ -1,6 +1,8 @@
 package com.SistemaVeterinario.service;
 
+import com.SistemaVeterinario.model.Animal;
 import com.SistemaVeterinario.model.Servico;
+import com.SistemaVeterinario.repository.AnimalRepository;
 import com.SistemaVeterinario.repository.ServicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,9 +16,14 @@ public class ServicoService {
     @Autowired
     private ServicoRepository servicoRepository;
 
-    public Servico save(Servico Servico){
-        servicoRepository.save(Servico);
-        return Servico;
+    @Autowired
+    private AnimalRepository animalRepository;
+
+    public Servico save(Servico servico){
+        Optional< Animal> animalExiste = animalRepository.findById(servico.getAnimal().getId());
+        servico.setAnimal(animalExiste.get());
+        servicoRepository.save(servico);
+        return servico;
     }
 
     public List<Servico> findAll(){
