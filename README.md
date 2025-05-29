@@ -1,5 +1,5 @@
-# Sistema de Gerenciamento de Aluno
- Sistema de Gerenciamneto de Aluno utilizando o Java Spring Boot de Backend e React de Frontend.  
+# Sistema de Gerenciamento de Veterinario com Jwt Token
+ Sistema de Gerenciamneto de Veterinario utilizando o Java Spring Boot de Backend. 
  
  Realizado por:  
    - Arthur Prescinotti Severino  
@@ -13,5 +13,15 @@
  5. Passo: abrir o terminal e colocar o código:  
     - npm install (se necessário).  
     - npm start.  
+
+## End-Points:
+Usuario:  
+°  
+Pessoa:   
+°  
+Animal:
+°  
+Servico:
+°  
 
 
