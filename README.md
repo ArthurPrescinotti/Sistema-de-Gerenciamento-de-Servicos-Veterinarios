@@ -7,7 +7,7 @@
 
 ## Passo a Passo de como rodar o programa em Swagger
  1. Passo: Verificar se o MongoDB e Java está instalado na maquina.  
- 2. Passo: Abrir o pasta BackEnd em um Idea para Rodar o Java(Exemplo: Eclipse, Intellij).  
+ 2. Passo: Abrir a pasta em um Idea para Rodar o Java(Exemplo: Eclipse, Intellij).  
  3. Passo: Rodar o Main.java.  
  4. Passo: Abrir o localhost:8092/api-docs     
  5. Passo: Primerio tem que cadastrar um usuario.
