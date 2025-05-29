@@ -9,7 +9,7 @@
  1. Passo: Verificar se o MongoDB e Java está instalado na maquina.  
  2. Passo: Abrir a pasta em um Idea para Rodar o Java(Exemplo: Eclipse, Intellij).  
  3. Passo: Rodar o Main.java.  
- 4. Passo: Abrir o localhost:8092/api-docs     
+ 4. Passo: Abrir o localhost:8090/api-docs     
  5. Passo: Primerio tem que cadastrar um usuario.
  6. Passo: Depois de cadastrado vai em Credential-controller para gerar um token.
  7. Passo: Copiando o Token coloque ele em Available authorizations(cadeado em qualquer operação do CRUD).
