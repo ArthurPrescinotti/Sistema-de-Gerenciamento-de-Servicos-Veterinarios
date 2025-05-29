@@ -16,7 +16,7 @@ Pessoa:
 -   http://localhost:8090/projeto/api/v1/pessoas  
 
 Animal:  
-- http://localhost:8090/projeto/api/v1/animal  
+- http://localhost:8090/projeto/api/v1/animais  
 
 Servico:  
 -  http://localhost:8090/projeto/api/v1/servicos

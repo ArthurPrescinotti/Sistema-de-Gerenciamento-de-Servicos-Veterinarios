@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document(collation = "servico")
+@Document(collation = "servicos")
 @Getter @Setter
 public class Servico {
 
