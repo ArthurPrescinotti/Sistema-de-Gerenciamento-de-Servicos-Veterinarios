@@ -46,8 +46,6 @@ Exemplo com imagem:
 ![image](https://github.com/user-attachments/assets/d1cc3ac3-faf7-45e5-9154-d8c5e65faa09)
 
 
-![image](https://github.com/user-attachments/assets/672b4212-d8cf-4f58-a0d2-417545d754d4)
-
 ![image](https://github.com/user-attachments/assets/f2f35582-497c-408e-8772-951f04a33010)
 
 
