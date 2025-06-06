@@ -2,14 +2,13 @@ package com.SistemaVeterinario.model;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document(collation = "servicos")
+@Document(collection = "servicos")
 @Getter @Setter
 public class Servico {
 
